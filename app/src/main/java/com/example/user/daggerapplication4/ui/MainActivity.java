@@ -15,6 +15,7 @@ import dagger.android.support.DaggerAppCompatActivity;
 
 public class MainActivity extends DaggerAppCompatActivity {
 
+    @Inject
     MainFragment injectedFragment;
 
     @Override
